@@ -36,7 +36,7 @@ public class ContenidoHBO extends Fragment {
 
     public void setFText(String msg){
        txtMsg = (TextView) v.findViewById(R.id.txtMsg);
-        txtMsg.setTag(msg);
+        txtMsg.setText(msg);
 
     }
 

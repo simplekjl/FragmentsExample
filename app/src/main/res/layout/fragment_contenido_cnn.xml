@@ -1,28 +1,27 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="company.example.fragmentsexample.ContenidoCNN"
     android:background="#8809ed18">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="Contenido CNN" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button1"
-        android:id="@+id/btnCNN1"
-        android:layout_gravity="left|top" />
+        android:id="@+id/btnCNN1" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button 2"
-        android:id="@+id/buttonCNN2"
-        android:layout_gravity="center_horizontal|top" />
+        android:id="@+id/buttonCNN2" />
 
-</FrameLayout>
+</LinearLayout>

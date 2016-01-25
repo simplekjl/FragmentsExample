@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements FragmentCCO{
     public void btnClicked(String msg) {
         //usando el fragment manager
         FragmentManager fm = getFragmentManager();
-        ContenidoHBO  f2 = (ContenidoHBO) fm.findFragmentById(R.id.f2);
+        ContenidoHBO  f2 = (ContenidoHBO) fm.findFragmentById(R.id.f1);
         f2.setFText(msg);
 
     }
